@@ -1,0 +1,23 @@
+package Java01_variables;
+
+public class VariablesEx_03 {
+
+	public static void main(String[] args) {
+		
+		//변수의 선언과 동시에 초기화(Initialize)
+		int num = 123;
+		
+		int age; //변수선언
+		
+		age = 111;
+		
+		System.out.println(age);	//쓰레기값을 출력하라고 해서 에러 발생
+		// 해결 : age 변수를 초기화(대입) 해주고 사용(활용)해야 한다
+		
+		
+		
+		
+
+	}
+
+}
