@@ -1,0 +1,44 @@
+package Java01_variables;
+
+public class VariablesEx_05 {
+	public static void main(String[] args) {
+		
+		System.out.println(777);	// 리터럴 상수 777
+		
+		int nun = 500 + 600;
+		
+		//---------------
+		
+		//이름있는 상수
+		
+		final int MAX;	// 변수의 상수화
+		
+		MAX = 100;    // 상수화 시킨 변수는 딱 한번만 대입 가능. 이후 100으로 고정됨
+//		MAX = 200; //바뀔 수 없도록 막는다 final을 적용하면 변수를 상수화 시킬 수 있다  final이라는 변수가 붙으면 값이 한번만 정할 수 있다/ 다시 대입하기 불가능, 에러
+		
+		System.out.println("최대값:"+ MAX);
+	
+			// 관례적으로 상수화된 변수의 이름은 모두 대문자로 작성한다
+		
+			//------------------------
+		
+			final int STUDENT_NUM = 10; // 총 인원
+			
+			int sum = 976; // 총점
+			
+			double avg; //평균
+			avg = sum / (double)STUDENT_NUM; //형변환
+			
+			System.out.println("총 인원:" + STUDENT_NUM);
+			System.out.println("평균:"+ avg);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
