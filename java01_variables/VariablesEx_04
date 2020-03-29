@@ -1,0 +1,72 @@
+package Java01_variables;
+
+public class VariablesEx_04 {
+	public static void  main(String[] args) {
+		
+		// 학생의 나이
+//		int student age; //띄어쓰기 안됨
+		
+		int student_age;
+		int studentAge; //권장
+		
+		//---------------------------
+		
+//		int 1stNumber;	// 숫자로 시작하면 안됨
+		int firstNumber;
+		
+		
+//		int int;	//키워드(예약어) 사용 금지
+		int intNum;
+		
+		//----------
+		
+		// 에러는 아니지만 사용하지 말아야할 이름들
+		
+		int _;
+		
+		
+		
+		//의미없는 변수명 짓지 않기
+		
+		int a;
+		int b;
+		int c;
+		
+		// _ 와 $ 를 의미없이 과하게 사용하면 안 좋다
+		int num;
+		int _num;
+		int num_;
+		int num$;
+	
+		
+		//같은 이름을 여러 번 사용하고 싶을 때 뒤에 숫자를 붙이면 좋다
+		int num1;
+		int num2;
+		int num3;
+		
+		//------------------
+		
+		int area; //넓이
+		
+		// 한글로 변수명 절대 짓지 말 것!
+		int 넓이; // 가능하지만 절대 하지 말자.
+		
+		넓이 = 100;
+		System.out.println("넓이는" + 넓이 + "입니다"); // 변수명이 인코딩에 영향을 받으니 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}
+}
