@@ -1,0 +1,22 @@
+package java02_operator;
+
+public class BinaryEx_02 {
+	public static void main(String[] args) {
+
+		// ctrl + space : 자동완성 추천 단축키
+		//		main 타이핑하고 ctrl+space
+		//		sysout 타이핑하고 ctrl+space
+		
+		
+		// ctrl + alt + 방향키 : 커서가 위치한 줄을 위/아래로 복사 
+		// ctrl + d : 커서가 위치한 줄 삭제
+		// alt + 방향키 : 커서가 위치한 줄을 위/아래로 이동
+		// ctrl + 방향키 : 화면만 위/아래로 이동
+		
+		//이항연산자 - 대입(Assign)
+		//	=
+		
+		
+		
+	}
+}
