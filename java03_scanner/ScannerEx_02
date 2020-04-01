@@ -1,0 +1,42 @@
+package java03_scanner;
+
+import java.util.Scanner;
+
+public class ScannerEx_02 {
+	public static void main(String[] args) {
+	
+	
+	//int형 데이터 입력받기, 출력해보기
+	
+	// 1. 입력객체 변수 선언
+	
+	// 2. 입력객체 생성 ( new 연산자 이용)
+	
+	// 3. int형 데이터 입력받기
+	
+	// 4. 입력받은 int데이터 출력
+	
+	
+	Scanner in;
+	//java.util.Scanner in;
+	
+	in = new Scanner(System.in);
+	// in= new java.util.Scanner(System.in); 풀네임
+	
+	System.out.print("정수값 입력:");
+	int num = in.nextInt();
+	
+	System.out.println("입력받은 정수:"+ num);
+		
+	
+	double d = in.nextDouble();
+	boolean b = in.hasNextBoolean();
+	int i = in.nextInt();
+	
+//	char ch = in.nextChar(); // char 전용 입력 메소드는 없음
+	
+	}
+
+}
+
+
