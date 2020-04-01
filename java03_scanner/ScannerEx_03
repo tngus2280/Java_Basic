@@ -1,0 +1,56 @@
+package java03_scanner;
+
+import java.util.Scanner;
+
+public class ScannerEx_03 {
+public static void main(String[] args) {
+	
+	//문자열
+	
+	//java.lang패키지
+	//	자바 프로그래밍에 필요한 기본적인 클래스를 모아 놓은 패키지
+	
+	//java,lang 패키지는 별도의 import  없이 사용 가능하다
+	
+	
+//	String str2 = new String("Banana");
+	
+	String str = "Apple";
+				// 01234 번째
+	
+	char ch = str.charAt(3);
+	//char ch ="p";
+	
+	System.out.println(ch);
+	
+	System.out.println("----------------");
+	
+	//Scanner로 단일문자(char형) 입력받기
+	
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.print("문자열입력:");
+	String inputData = sc.nextLine(); // 문자열 입력 
+	
+	char inputChar = inputData.charAt(0);
+	System.out.println("0번째 단일문자:"+ inputChar);
+	
+	System.out.println("-------");
+	
+	
+	System.out.println("단일 문자 입력 받기:");
+	char inputChar2 = sc.nextLine().charAt(0);
+	System.out.println(inputChar2);
+	
+	
+	System.out.println("------------------");
+	
+	//이 방법 말고 위에 있는 변수에 저장해서 사용하는 방법을 사용하세요!
+	System.out.println("성별입력:");
+	System.out.println("입력한 성별:"+ sc.nextLine().charAt(0));
+	
+	}
+}
+
+
+
