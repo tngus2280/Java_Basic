@@ -1,0 +1,110 @@
+package java04_control.condition;
+import java.util.Scanner;
+public class IfBasicQuiz_02 {
+	public static void main(String[] args) {
+	
+	// + 세 수를 입력받아 가장 큰 수를 출력하시오
+	
+	//+ 두수를 입력받아 합이 짝수이고
+	// 3의 배수인지 판별하시오
+	
+	
+	//+ 세과목의 성적을 입력 받아 합계와 평균을 구하고
+	// 평균이 90이상이면 "A" 80 이상이면 "B"
+	//70 이상이면 씨 60이상이면 디
+	// 60미만이면 에프를 출력하시오.
+	
+
+	
+	//input number
+		//int num 1 2 3
+		//if else if else쓰기
+		//출력
+	
+	//1번문제
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num1;
+		int num2;
+		int num3;
+		int max;
+		System.out.println("-------------");
+		System.out.println("가장 큰 수를 출력하시오:");
+		
+		 num1 = sc.nextInt();
+		 num2 = sc.nextInt();
+		 num3 = sc.nextInt();
+		
+	
+		if(num1>= num2 && num1>= num3) {
+			 max =  num1;
+		}else if (num2>= num1 && num2 >= num3) {
+			max = num2;
+		}else {
+			max= num3;
+		}
+			System.out.println("가장 큰수는:"+max+"입니다");
+		
+		
+		
+		
+	// input number
+		// int num 45
+		// num 
+		// 
+		
+		//+ 두수를 입력받아 합이 짝수이고
+		// 3의 배수인지 판별하시오
+		//2 번문제
+		System.out.println("-----------------------------------");
+		int sum;
+		
+		System.out.println("두 수 입력:");
+		int num4 = sc.nextInt();
+		int num5 = sc.nextInt();
+		
+		sum = num4+num5;
+		
+		if((sum)%2 == 0 && (sum)%3 == 0) {
+		
+		
+		}
+		System.out.println(sum );
+
+		
+		// sc.nextLine()쓰기
+	
+	//q3
+		//+ 세과목의 성적을 입력 받아 합계와 평균을 구하고
+		// 평균이 90이상이면 "A" 80 이상이면 "B"
+		//70 이상이면 씨 60이상이면 디
+		// 60미만이면 에프를 출력하시오.
+	System.out.println("------------------");
+	System.out.println("과목의 성적을 입력하시오");
+	System.out.println("1:");
+	System.out.println("2:");
+	System.out.println("3:");
+	int res1 = sc.nextInt();
+	int res2 = sc.nextInt();
+	int res3 = sc.nextInt();
+	
+	int sres;
+	int avg;
+	
+	sres = res1 + res2+ res3;
+	avg = sres/3;
+	
+	if (avg>=90) {
+		System.out.println("A");
+	}else if(avg >=80) {
+		System.out.println("B");
+	}else if(avg >=70) {
+		System.out.println("C");
+	}else {
+		System.out.println("F");
+	}
+	
+	
+		}		
+}
