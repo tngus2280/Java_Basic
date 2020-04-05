@@ -1,0 +1,25 @@
+package java04_control.condition;
+
+public class IfElse_03 {
+	public static void main(String[] args) {
+		//제어문을 중첩시켜서 사용하기
+		
+		int num = 5;
+		
+		if(num>0) {//양수
+			System.out.println("양수");
+			
+		} else { // num<=0 ,음수 or 0
+			System.out.println("음수 or 0");
+			System.out.println("양수가 아닙니다");
+			
+			if( num==0 ) { //0
+				System.out.println("0입니다");
+			}else { //음수
+				System.out.println("음수입니다");
+			}
+		}
+		
+		
+	}
+}
