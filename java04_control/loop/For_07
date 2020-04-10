@@ -1,0 +1,40 @@
+package java04_control.loop;
+
+public class For_07 {
+	public static void main(String[] args) {
+		
+		
+	
+	//첫날에 10원을 예금하고.
+	// 다음날에는 전날의 2배를 예금하는 방식으로
+	// 보름 15일 동안 저축한 금액은?
+	
+	
+	
+	//반복횟수: 15
+	//반복구간: 1~15
+	
+	
+	// 초기식: 		int i = 1		(반복구간의 시작값)
+	// 조건식: 	    	 	 i<=15		(반복구간의 끝값, 반복횟수)
+	// 증감식: 			i++			(1씩 증가)
+	
+	int amount=0; // account
+	int  onedaymoney=10; // money
+	for( int i = 0; i<15; i++ ) { //i , 0~14, x15
+		//예금액을 2배로 증가시키기
+		// 총 금액에 예금액을 더하기
+		amount = amount+  onedaymoney; // 총금액에 예금액을 더하기
+		
+		onedaymoney =  onedaymoney*2; // 예금액을 2배로 증가시키기 , 그리고 기억해놓기
+		}
+	System.out.println("저축한금액:"+amount+"원");
+	
+	//			
+	
+	
+	
+	}
+	
+	
+}
